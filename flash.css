@@ -1,0 +1,22 @@
+html, body
+{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.flash 
+{
+  height: 100%;
+  width: 100%;
+  animation: flashAnimation .5s infinite;
+}
+
+@keyframes flashAnimation
+{
+  0% {background-color: #000000;}
+  25%{background-color: #FF0000;}
+  50%{background-color: #00FF00;}
+  75%{background-color: #0000FF;}
+  100% {background-color: #FFFFFF;}
+}
